@@ -33,13 +33,13 @@ function checkinputs() {
 
     else if (fizzIn < 1 || fizzIn > 100) {
         console.log("check inputs");
-        messagevalues.innerText = '"Fizz" value can not be smaller than 1';
+        messagevalues.innerText = '"Fizz" value must be 1-100';
         console.log("invalid input fizz");
     }
 
     else if (buzzIn < 1 || buzzIn > 100) {
         console.log("check inputs");
-        messagevalues.innerText = '"Buzz" value can not be smaller than 1';
+        messagevalues.innerText = '"Buzz" value must be 1-100';
         console.log("invalid input buzz");
 
     } else {
@@ -97,7 +97,7 @@ function fizzBuzz() {
 
 const clearButton = document.getElementById("clear")
 clearButton.onclick = () => {
-    console.log("clear all divs and reset inputs");
+    console.log("clear all divs");
     while (mainDiv.firstChild) {
         mainDiv.removeChild(mainDiv.firstChild);
 
