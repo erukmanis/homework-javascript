@@ -31,7 +31,7 @@ header {
 .fizzbuzz {
 height: 80px;
 width: 80px;
-border: solid burlywood 5px;
+border: solid white 5px;
 background-color: crimson;
 margin: 10px;
 text-align: center;
@@ -46,7 +46,7 @@ vertical-align: middle;
 .fizz {
 height: 80px;
 width: 80px;
-border: solid burlywood 5px;
+border: solid white 5px;
 margin: 10px;
 background-color: rgb(158, 158, 202);
 text-align: center;
@@ -61,7 +61,7 @@ vertical-align: middle;
 .buzz {
 height: 80px;
 width: 80px;
-border: solid burlywood 5px;
+border: solid white 5px;
 background-color: rgb(159, 185, 159);
 margin: 10px;
 text-align: center;
@@ -76,7 +76,7 @@ vertical-align: middle;
 .none {
 height: 80px;
 width: 80px;
-border: solid burlywood 5px;
+border: solid white 5px;
 margin: 10px;
 text-align: center;
 padding: 20px;
