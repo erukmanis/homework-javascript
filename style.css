@@ -1,6 +1,7 @@
 body {
-    background: lightblue;
+    background: #373779;
     font-family: sans-serif;
+    color: white;
 }
 
 .innercontainer {
