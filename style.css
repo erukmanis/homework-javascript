@@ -1,0 +1,107 @@
+body {
+    background: lightblue;
+    font-family: sans-serif;
+}
+
+.innercontainer {
+    width: 50vw;
+    margin: auto;
+
+}
+
+header {
+    font-size: 80px;
+    width: 50vw;
+    margin: auto;
+}
+
+
+.controlDivs {
+    margin: 10px;
+    vertical-align: middle;
+    
+}    
+
+.controls {
+    display: grid;
+       
+}
+
+.fizzbuzz {
+height: 80px;
+width: 80px;
+border: solid burlywood 5px;
+background-color: crimson;
+margin: 10px;
+text-align: center;
+padding: 20px;
+vertical-align: middle;
+}
+
+.colFizzBuzz {
+    color: crimson;
+}
+
+.fizz {
+height: 80px;
+width: 80px;
+border: solid burlywood 5px;
+margin: 10px;
+background-color: rgb(158, 158, 202);
+text-align: center;
+padding: 20px;
+vertical-align: middle;
+}
+
+.colFizz {
+    color: rgb(158,158,202) ;
+}
+
+.buzz {
+height: 80px;
+width: 80px;
+border: solid burlywood 5px;
+background-color: rgb(159, 185, 159);
+margin: 10px;
+text-align: center;
+padding: 20px;
+vertical-align: middle;
+}
+
+.colBuzz {
+    color: rgb(159,185,159);
+}
+
+.none {
+height: 80px;
+width: 80px;
+border: solid burlywood 5px;
+margin: 10px;
+text-align: center;
+padding: 20px;
+vertical-align: middle;
+
+}
+
+.main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+
+.warn {
+color: red;
+
+}
+
+footer {
+    
+    width: 50vw;
+    margin: auto;    
+}
+
+input {
+    width: 40px;
+}
+
