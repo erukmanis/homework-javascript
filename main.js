@@ -8,6 +8,7 @@ const generate = document.getElementById("start");
 let messagevalues = document.getElementById("message");
 
 
+
 generate.onmouseup = checkinputs;
 
 function checkinputs() {
@@ -17,7 +18,6 @@ function checkinputs() {
     let endIn = parseFloat(document.getElementById("endId").value);
     let fizzIn = parseFloat(document.getElementById("fizzId").value);
     let buzzIn = parseFloat(document.getElementById("buzzId").value);
-    let messagevalues = document.getElementById("message");
 
     if (startIn < 1 || startIn > 100) {
         console.log("check inputs");
@@ -57,28 +57,28 @@ function checkinputs() {
 
 function fizzBuzz() {
 
-    let startIn1 = parseFloat(document.getElementById("startId").value);
-    let endIn1 = parseFloat(document.getElementById("endId").value);
-    let fizzIn1 = parseFloat(document.getElementById("fizzId").value);
-    let buzzIn1 = parseFloat(document.getElementById("buzzId").value);
+    let startIn = parseFloat(document.getElementById("startId").value);
+    let endIn = parseFloat(document.getElementById("endId").value);
+    let fizzIn = parseFloat(document.getElementById("fizzId").value);
+    let buzzIn = parseFloat(document.getElementById("buzzId").value);
 
 
-    for (i = startIn1; i <= endIn1; i++) {
+    for (i = startIn; i <= endIn; i++) {
 
         const fizzbuzz = document.createElement('div');
 
 
-        if (i % fizzIn1 === 0 && i % buzzIn1 === 0) {
+        if (i % fizzIn === 0 && i % buzzIn === 0) {
             console.log("fizzbuzz" + i);
             mainDiv.appendChild(fizzbuzz);
             fizzbuzz.setAttribute("class", "fizzbuzz");
             fizzbuzz.innerText = i + " FizzBuzz";
-        } else if (i % fizzIn1 === 0 && i % buzzIn1 !== 0) {
+        } else if (i % fizzIn === 0 && i % buzzIn !== 0) {
             console.log("fizz" + i);
             mainDiv.appendChild(fizzbuzz);
             fizzbuzz.setAttribute("class", "fizz");
             fizzbuzz.innerText = i + " Fizz";
-        } else if (i % fizzIn1 !== 0 && i % buzzIn1 === 0) {
+        } else if (i % fizzIn !== 0 && i % buzzIn === 0) {
             console.log("buzz" + i);
             mainDiv.appendChild(fizzbuzz);
             fizzbuzz.setAttribute("class", "buzz");
